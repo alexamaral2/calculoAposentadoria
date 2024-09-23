@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Digite o valor desejado ao final (em reais)"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/valor_futuro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="R$"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Qual é a taxa de Juros mensal em porcentagem?"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/taxa_juros_anual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Número de meses para a aposentadoria"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/numero_anos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/btn_secondscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calcular Contribuição Mensal"/>
+</LinearLayout>
